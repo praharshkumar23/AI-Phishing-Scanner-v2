@@ -30,14 +30,14 @@ URL Input
 
 ## ✨ What's New in v2.0
 
-| Feature | v1.0 | v2.0 |
+| Feature | v2.0 |
 |---|---|---|
-| AbuseIPDB reputation check | ❌ | ✅ |
-| Batch URL scanning | ❌ | ✅ |
-| JSON report export | ❌ | ✅ |
-| Scan history log | ❌ | ✅ |
-| MITRE ATT&CK mapping | ❌ | ✅ |
-| Interactive menu | ❌ | ✅ |
+| AbuseIPDB reputation check | ✅ |
+| Batch URL scanning | ✅ |
+| JSON report export | ✅ |
+| Scan history log | ✅ |
+| MITRE ATT&CK mapping |✅ |
+| Interactive menu |  ✅ |
 | Expanded keyword + TLD detection | Basic | Expanded |
 
 ---
