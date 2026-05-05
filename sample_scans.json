@@ -1,0 +1,711 @@
+[
+  {
+    "url": "https://www.google.com",
+    "timestamp": "2026-05-05 18:00:00",
+    "static": {
+      "risk_score": 0,
+      "has_ip_address": false,
+      "uses_http": false,
+      "has_suspicious_tld": false,
+      "excessive_length": false,
+      "excessive_subdomains": false,
+      "has_at_symbol": false,
+      "has_double_slash": false,
+      "has_hex_encoding": false,
+      "suspicious_keywords": [],
+      "typosquatting": []
+    },
+    "virustotal": {
+      "available": true,
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 89,
+      "undetected": 0,
+      "total": 89,
+      "status": "completed"
+    },
+    "abuseipdb": {
+      "available": false,
+      "error": "No IP in URL \u2014 AbuseIPDB skipped"
+    },
+    "llm": {
+      "available": true,
+      "is_phishing": false,
+      "confidence": 1,
+      "red_flags": "None",
+      "mitre_technique": "Not applicable",
+      "reasoning": "This is the official Google domain with HTTPS. No phishing indicators present."
+    },
+    "verdict": {
+      "risk": 1,
+      "status": "SAFE",
+      "label": "APPEARS SAFE \u2014 LOW RISK",
+      "action": "URL looks legitimate. Always verify sender context."
+    }
+  },
+  {
+    "url": "http://amaz0n-security-update.com/verify-account",
+    "timestamp": "2026-05-05 18:02:00",
+    "static": {
+      "risk_score": 75,
+      "has_ip_address": false,
+      "uses_http": true,
+      "has_suspicious_tld": false,
+      "excessive_length": true,
+      "excessive_subdomains": false,
+      "has_at_symbol": false,
+      "has_double_slash": false,
+      "has_hex_encoding": false,
+      "suspicious_keywords": [
+        "security",
+        "update",
+        "verify",
+        "account"
+      ],
+      "typosquatting": [
+        "amaz[o0]n"
+      ]
+    },
+    "virustotal": {
+      "available": true,
+      "malicious": 12,
+      "suspicious": 8,
+      "harmless": 69,
+      "undetected": 0,
+      "total": 89,
+      "status": "completed"
+    },
+    "abuseipdb": {
+      "available": false,
+      "error": "No IP in URL \u2014 AbuseIPDB skipped"
+    },
+    "llm": {
+      "available": true,
+      "is_phishing": true,
+      "confidence": 95,
+      "red_flags": "Typosquatting (amaz0n), urgency keywords, HTTP protocol",
+      "mitre_technique": "T1566.002 - Phishing: Spearphishing Link",
+      "reasoning": "Classic Amazon phishing \u2014 typosquatting with 0 replacing o, security-update urgency bait, and account verification path. Strong credential harvesting pattern."
+    },
+    "verdict": {
+      "risk": 87,
+      "status": "MALICIOUS",
+      "label": "MALICIOUS \u2014 HIGH RISK",
+      "action": "DO NOT VISIT. Strong phishing indicators detected."
+    }
+  },
+  {
+    "url": "http://free-gift-card-claim.xyz/win-now",
+    "timestamp": "2026-05-05 18:05:00",
+    "static": {
+      "risk_score": 60,
+      "has_ip_address": false,
+      "uses_http": true,
+      "has_suspicious_tld": true,
+      "excessive_length": true,
+      "excessive_subdomains": false,
+      "has_at_symbol": false,
+      "has_double_slash": false,
+      "has_hex_encoding": false,
+      "suspicious_keywords": [
+        "click"
+      ],
+      "typosquatting": []
+    },
+    "virustotal": {
+      "available": true,
+      "malicious": 3,
+      "suspicious": 5,
+      "harmless": 81,
+      "undetected": 0,
+      "total": 89,
+      "status": "completed"
+    },
+    "abuseipdb": {
+      "available": false,
+      "error": "No IP in URL \u2014 AbuseIPDB skipped"
+    },
+    "llm": {
+      "available": true,
+      "is_phishing": true,
+      "confidence": 82,
+      "red_flags": "Suspicious .xyz TLD, HTTP only, free-gift social engineering bait",
+      "mitre_technique": "T1566 - Phishing",
+      "reasoning": "Classic scam lure \u2014 free gift social engineering combined with .xyz TLD and HTTP. High probability of credential or payment harvesting."
+    },
+    "verdict": {
+      "risk": 56,
+      "status": "SUSPICIOUS",
+      "label": "SUSPICIOUS \u2014 MEDIUM RISK",
+      "action": "Exercise caution. Verify sender before clicking."
+    }
+  },
+  {
+    "url": "https://www.github.com",
+    "timestamp": "2026-05-05 18:08:00",
+    "static": {
+      "risk_score": 0,
+      "has_ip_address": false,
+      "uses_http": false,
+      "has_suspicious_tld": false,
+      "excessive_length": false,
+      "excessive_subdomains": false,
+      "has_at_symbol": false,
+      "has_double_slash": false,
+      "has_hex_encoding": false,
+      "suspicious_keywords": [],
+      "typosquatting": []
+    },
+    "virustotal": {
+      "available": true,
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 89,
+      "undetected": 0,
+      "total": 89,
+      "status": "completed"
+    },
+    "abuseipdb": {
+      "available": false,
+      "error": "No IP in URL \u2014 AbuseIPDB skipped"
+    },
+    "llm": {
+      "available": true,
+      "is_phishing": false,
+      "confidence": 1,
+      "red_flags": "None",
+      "mitre_technique": "Not applicable",
+      "reasoning": "Official GitHub domain with HTTPS. Globally trusted platform. No phishing indicators."
+    },
+    "verdict": {
+      "risk": 0,
+      "status": "SAFE",
+      "label": "APPEARS SAFE \u2014 LOW RISK",
+      "action": "URL looks legitimate. Always verify sender context."
+    }
+  },
+  {
+    "url": "http://192.168.1.100/admin/login.php",
+    "timestamp": "2026-05-05 18:11:00",
+    "static": {
+      "risk_score": 100,
+      "has_ip_address": true,
+      "uses_http": true,
+      "has_suspicious_tld": false,
+      "excessive_length": false,
+      "excessive_subdomains": false,
+      "has_at_symbol": false,
+      "has_double_slash": false,
+      "has_hex_encoding": false,
+      "suspicious_keywords": [
+        "login",
+        "admin"
+      ],
+      "typosquatting": []
+    },
+    "virustotal": {
+      "available": true,
+      "malicious": 5,
+      "suspicious": 3,
+      "harmless": 81,
+      "undetected": 0,
+      "total": 89,
+      "status": "completed"
+    },
+    "abuseipdb": {
+      "available": true,
+      "ip": "192.168.1.100",
+      "abuse_score": 72,
+      "total_reports": 38,
+      "country": "IN",
+      "isp": "Unknown Private Range",
+      "is_tor": false
+    },
+    "llm": {
+      "available": true,
+      "is_phishing": true,
+      "confidence": 90,
+      "red_flags": "IP in URL, HTTP, admin login path, high AbuseIPDB score",
+      "mitre_technique": "T1078 - Valid Accounts: Admin Panel Access",
+      "reasoning": "Direct IP address with HTTP targeting an admin login panel. Classic credential harvesting or C2 panel access pattern."
+    },
+    "verdict": {
+      "risk": 91,
+      "status": "MALICIOUS",
+      "label": "MALICIOUS \u2014 HIGH RISK",
+      "action": "DO NOT VISIT. Strong phishing indicators detected."
+    }
+  },
+  {
+    "url": "https://paypal.com/signin",
+    "timestamp": "2026-05-05 18:14:00",
+    "static": {
+      "risk_score": 5,
+      "has_ip_address": false,
+      "uses_http": false,
+      "has_suspicious_tld": false,
+      "excessive_length": false,
+      "excessive_subdomains": false,
+      "has_at_symbol": false,
+      "has_double_slash": false,
+      "has_hex_encoding": false,
+      "suspicious_keywords": [
+        "signin"
+      ],
+      "typosquatting": []
+    },
+    "virustotal": {
+      "available": true,
+      "malicious": 0,
+      "suspicious": 1,
+      "harmless": 88,
+      "undetected": 0,
+      "total": 89,
+      "status": "completed"
+    },
+    "abuseipdb": {
+      "available": false,
+      "error": "No IP in URL \u2014 AbuseIPDB skipped"
+    },
+    "llm": {
+      "available": true,
+      "is_phishing": false,
+      "confidence": 5,
+      "red_flags": "signin keyword present (common on legitimate sites too)",
+      "mitre_technique": "Not applicable",
+      "reasoning": "Official PayPal domain with HTTPS. The signin keyword is expected on the real PayPal login page."
+    },
+    "verdict": {
+      "risk": 5,
+      "status": "SAFE",
+      "label": "APPEARS SAFE \u2014 LOW RISK",
+      "action": "URL looks legitimate. Always verify sender context."
+    }
+  },
+  {
+    "url": "http://secure-paypa1-login.ml/confirm-identity",
+    "timestamp": "2026-05-05 18:17:00",
+    "static": {
+      "risk_score": 100,
+      "has_ip_address": false,
+      "uses_http": true,
+      "has_suspicious_tld": true,
+      "excessive_length": true,
+      "excessive_subdomains": false,
+      "has_at_symbol": false,
+      "has_double_slash": false,
+      "has_hex_encoding": false,
+      "suspicious_keywords": [
+        "secure",
+        "login",
+        "confirm"
+      ],
+      "typosquatting": [
+        "paypa[l1]"
+      ]
+    },
+    "virustotal": {
+      "available": true,
+      "malicious": 18,
+      "suspicious": 11,
+      "harmless": 60,
+      "undetected": 0,
+      "total": 89,
+      "status": "completed"
+    },
+    "abuseipdb": {
+      "available": false,
+      "error": "No IP in URL \u2014 AbuseIPDB skipped"
+    },
+    "llm": {
+      "available": true,
+      "is_phishing": true,
+      "confidence": 98,
+      "red_flags": "PayPal typosquatting, .ml TLD, HTTP, confirm-identity path, multiple phishing keywords",
+      "mitre_technique": "T1566.002 - Phishing: Spearphishing Link",
+      "reasoning": "Extremely high-confidence phishing. PayPal brand impersonation with typosquatting (1 instead of l), suspicious .ml TLD, confirm-identity credential harvesting path."
+    },
+    "verdict": {
+      "risk": 96,
+      "status": "MALICIOUS",
+      "label": "MALICIOUS \u2014 HIGH RISK",
+      "action": "DO NOT VISIT. Strong phishing indicators detected."
+    }
+  },
+  {
+    "url": "https://microsoft.com/en-us/security",
+    "timestamp": "2026-05-05 18:20:00",
+    "static": {
+      "risk_score": 5,
+      "has_ip_address": false,
+      "uses_http": false,
+      "has_suspicious_tld": false,
+      "excessive_length": false,
+      "excessive_subdomains": false,
+      "has_at_symbol": false,
+      "has_double_slash": false,
+      "has_hex_encoding": false,
+      "suspicious_keywords": [
+        "security"
+      ],
+      "typosquatting": []
+    },
+    "virustotal": {
+      "available": true,
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 89,
+      "undetected": 0,
+      "total": 89,
+      "status": "completed"
+    },
+    "abuseipdb": {
+      "available": false,
+      "error": "No IP in URL \u2014 AbuseIPDB skipped"
+    },
+    "llm": {
+      "available": true,
+      "is_phishing": false,
+      "confidence": 2,
+      "red_flags": "None",
+      "mitre_technique": "Not applicable",
+      "reasoning": "Official Microsoft domain with HTTPS. Security keyword is expected on the Microsoft security page."
+    },
+    "verdict": {
+      "risk": 3,
+      "status": "SAFE",
+      "label": "APPEARS SAFE \u2014 LOW RISK",
+      "action": "URL looks legitimate. Always verify sender context."
+    }
+  },
+  {
+    "url": "http://micros0ft-account-verify.pw/update-password",
+    "timestamp": "2026-05-05 18:23:00",
+    "static": {
+      "risk_score": 100,
+      "has_ip_address": false,
+      "uses_http": true,
+      "has_suspicious_tld": true,
+      "excessive_length": true,
+      "excessive_subdomains": false,
+      "has_at_symbol": false,
+      "has_double_slash": false,
+      "has_hex_encoding": false,
+      "suspicious_keywords": [
+        "account",
+        "verify",
+        "update",
+        "password"
+      ],
+      "typosquatting": [
+        "micr[o0]s[o0]ft"
+      ]
+    },
+    "virustotal": {
+      "available": true,
+      "malicious": 20,
+      "suspicious": 9,
+      "harmless": 60,
+      "undetected": 0,
+      "total": 89,
+      "status": "completed"
+    },
+    "abuseipdb": {
+      "available": false,
+      "error": "No IP in URL \u2014 AbuseIPDB skipped"
+    },
+    "llm": {
+      "available": true,
+      "is_phishing": true,
+      "confidence": 99,
+      "red_flags": "Microsoft typosquatting, .pw TLD, update-password path, account verify keywords",
+      "mitre_technique": "T1566.002 - Phishing: Spearphishing Link",
+      "reasoning": "Near-certain phishing. Microsoft impersonation with 0 replacing o, .pw suspicious TLD, and update-password credential harvesting path."
+    },
+    "verdict": {
+      "risk": 98,
+      "status": "MALICIOUS",
+      "label": "MALICIOUS \u2014 HIGH RISK",
+      "action": "DO NOT VISIT. Strong phishing indicators detected."
+    }
+  },
+  {
+    "url": "https://linkedin.com/in/praharshkumar23",
+    "timestamp": "2026-05-05 18:26:00",
+    "static": {
+      "risk_score": 0,
+      "has_ip_address": false,
+      "uses_http": false,
+      "has_suspicious_tld": false,
+      "excessive_length": false,
+      "excessive_subdomains": false,
+      "has_at_symbol": false,
+      "has_double_slash": false,
+      "has_hex_encoding": false,
+      "suspicious_keywords": [],
+      "typosquatting": []
+    },
+    "virustotal": {
+      "available": true,
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 89,
+      "undetected": 0,
+      "total": 89,
+      "status": "completed"
+    },
+    "abuseipdb": {
+      "available": false,
+      "error": "No IP in URL \u2014 AbuseIPDB skipped"
+    },
+    "llm": {
+      "available": true,
+      "is_phishing": false,
+      "confidence": 1,
+      "red_flags": "None",
+      "mitre_technique": "Not applicable",
+      "reasoning": "Official LinkedIn profile URL with HTTPS. No indicators of phishing."
+    },
+    "verdict": {
+      "risk": 0,
+      "status": "SAFE",
+      "label": "APPEARS SAFE \u2014 LOW RISK",
+      "action": "URL looks legitimate. Always verify sender context."
+    }
+  },
+  {
+    "url": "http://trusted.bank@evil-phish.ml/steal-creds",
+    "timestamp": "2026-05-05 18:29:00",
+    "static": {
+      "risk_score": 100,
+      "has_ip_address": false,
+      "uses_http": true,
+      "has_suspicious_tld": true,
+      "excessive_length": true,
+      "excessive_subdomains": false,
+      "has_at_symbol": true,
+      "has_double_slash": false,
+      "has_hex_encoding": false,
+      "suspicious_keywords": [
+        "banking"
+      ],
+      "typosquatting": []
+    },
+    "virustotal": {
+      "available": true,
+      "malicious": 15,
+      "suspicious": 10,
+      "harmless": 64,
+      "undetected": 0,
+      "total": 89,
+      "status": "completed"
+    },
+    "abuseipdb": {
+      "available": false,
+      "error": "No IP in URL \u2014 AbuseIPDB skipped"
+    },
+    "llm": {
+      "available": true,
+      "is_phishing": true,
+      "confidence": 99,
+      "red_flags": "@ symbol abuse, .ml TLD, banking keyword, credential path",
+      "mitre_technique": "T1566.002 - Phishing: Spearphishing Link",
+      "reasoning": "@ symbol in URL is a classic phishing trick \u2014 browser renders the domain after @ as the real destination, hiding the true malicious domain."
+    },
+    "verdict": {
+      "risk": 97,
+      "status": "MALICIOUS",
+      "label": "MALICIOUS \u2014 HIGH RISK",
+      "action": "DO NOT VISIT. Strong phishing indicators detected."
+    }
+  },
+  {
+    "url": "https://dropbox.com/s/abc123/document.pdf",
+    "timestamp": "2026-05-05 18:32:00",
+    "static": {
+      "risk_score": 0,
+      "has_ip_address": false,
+      "uses_http": false,
+      "has_suspicious_tld": false,
+      "excessive_length": false,
+      "excessive_subdomains": false,
+      "has_at_symbol": false,
+      "has_double_slash": false,
+      "has_hex_encoding": false,
+      "suspicious_keywords": [],
+      "typosquatting": []
+    },
+    "virustotal": {
+      "available": true,
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 89,
+      "undetected": 0,
+      "total": 89,
+      "status": "completed"
+    },
+    "abuseipdb": {
+      "available": false,
+      "error": "No IP in URL \u2014 AbuseIPDB skipped"
+    },
+    "llm": {
+      "available": true,
+      "is_phishing": false,
+      "confidence": 3,
+      "red_flags": "None",
+      "mitre_technique": "Not applicable",
+      "reasoning": "Official Dropbox domain with HTTPS sharing a PDF file. No phishing indicators."
+    },
+    "verdict": {
+      "risk": 2,
+      "status": "SAFE",
+      "label": "APPEARS SAFE \u2014 LOW RISK",
+      "action": "URL looks legitimate. Always verify sender context."
+    }
+  },
+  {
+    "url": "http://dr0pbox-shared-doc.tk/view-file%2Flogin",
+    "timestamp": "2026-05-05 18:35:00",
+    "static": {
+      "risk_score": 100,
+      "has_ip_address": false,
+      "uses_http": true,
+      "has_suspicious_tld": true,
+      "excessive_length": true,
+      "excessive_subdomains": false,
+      "has_at_symbol": false,
+      "has_double_slash": false,
+      "has_hex_encoding": true,
+      "suspicious_keywords": [
+        "login"
+      ],
+      "typosquatting": [
+        "dropb[o0]x"
+      ]
+    },
+    "virustotal": {
+      "available": true,
+      "malicious": 14,
+      "suspicious": 7,
+      "harmless": 68,
+      "undetected": 0,
+      "total": 89,
+      "status": "completed"
+    },
+    "abuseipdb": {
+      "available": false,
+      "error": "No IP in URL \u2014 AbuseIPDB skipped"
+    },
+    "llm": {
+      "available": true,
+      "is_phishing": true,
+      "confidence": 96,
+      "red_flags": "Dropbox typosquatting, .tk TLD, hex encoding, login in path",
+      "mitre_technique": "T1566.002 - Phishing: Spearphishing Link",
+      "reasoning": "Dropbox brand impersonation with hex encoded URL, .tk TLD, and login path. Hex encoding is used to obfuscate the malicious path from scanners."
+    },
+    "verdict": {
+      "risk": 93,
+      "status": "MALICIOUS",
+      "label": "MALICIOUS \u2014 HIGH RISK",
+      "action": "DO NOT VISIT. Strong phishing indicators detected."
+    }
+  },
+  {
+    "url": "https://accounts.google.com/o/oauth2/auth",
+    "timestamp": "2026-05-05 18:38:00",
+    "static": {
+      "risk_score": 5,
+      "has_ip_address": false,
+      "uses_http": false,
+      "has_suspicious_tld": false,
+      "excessive_length": false,
+      "excessive_subdomains": false,
+      "has_at_symbol": false,
+      "has_double_slash": false,
+      "has_hex_encoding": false,
+      "suspicious_keywords": [
+        "account"
+      ],
+      "typosquatting": []
+    },
+    "virustotal": {
+      "available": true,
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 89,
+      "undetected": 0,
+      "total": 89,
+      "status": "completed"
+    },
+    "abuseipdb": {
+      "available": false,
+      "error": "No IP in URL \u2014 AbuseIPDB skipped"
+    },
+    "llm": {
+      "available": true,
+      "is_phishing": false,
+      "confidence": 2,
+      "red_flags": "None",
+      "mitre_technique": "Not applicable",
+      "reasoning": "Official Google accounts domain used for OAuth authentication. Completely expected and legitimate."
+    },
+    "verdict": {
+      "risk": 3,
+      "status": "SAFE",
+      "label": "APPEARS SAFE \u2014 LOW RISK",
+      "action": "URL looks legitimate. Always verify sender context."
+    }
+  },
+  {
+    "url": "http://support-apple-id-locked.gq/recover-now?user=victim@gmail.com",
+    "timestamp": "2026-05-05 18:41:00",
+    "static": {
+      "risk_score": 100,
+      "has_ip_address": false,
+      "uses_http": true,
+      "has_suspicious_tld": true,
+      "excessive_length": true,
+      "excessive_subdomains": false,
+      "has_at_symbol": true,
+      "has_double_slash": false,
+      "has_hex_encoding": false,
+      "suspicious_keywords": [
+        "apple",
+        "locked",
+        "account",
+        "recover"
+      ],
+      "typosquatting": [
+        "app[l1]e"
+      ]
+    },
+    "virustotal": {
+      "available": true,
+      "malicious": 22,
+      "suspicious": 13,
+      "harmless": 54,
+      "undetected": 0,
+      "total": 89,
+      "status": "completed"
+    },
+    "abuseipdb": {
+      "available": false,
+      "error": "No IP in URL \u2014 AbuseIPDB skipped"
+    },
+    "llm": {
+      "available": true,
+      "is_phishing": true,
+      "confidence": 99,
+      "red_flags": "Apple impersonation, account locked fear tactic, .gq TLD, @ symbol, victim email in URL",
+      "mitre_technique": "T1566.002 - Phishing: Spearphishing Link",
+      "reasoning": "Textbook Apple ID phishing \u2014 account locked fear tactic, .gq TLD, @ symbol abuse, victim email pre-filled. One of the most common credential harvesting patterns."
+    },
+    "verdict": {
+      "risk": 99,
+      "status": "MALICIOUS",
+      "label": "MALICIOUS \u2014 HIGH RISK",
+      "action": "DO NOT VISIT. Strong phishing indicators detected."
+    }
+  }
+]
