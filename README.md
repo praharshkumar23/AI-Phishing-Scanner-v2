@@ -31,7 +31,7 @@ URL Input
 ## ✨ What's New in v2.0
 
 | Feature | v2.0 |
-|---|---|---|
+|---|---|
 | AbuseIPDB reputation check | ✅ |
 | Batch URL scanning | ✅ |
 | JSON report export | ✅ |
