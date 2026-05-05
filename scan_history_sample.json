@@ -1,0 +1,92 @@
+[
+  {
+    "timestamp": "2026-05-05 18:00:00",
+    "url": "https://www.google.com",
+    "risk": 1,
+    "status": "SAFE"
+  },
+  {
+    "timestamp": "2026-05-05 18:02:00",
+    "url": "http://amaz0n-security-update.com/verify-account",
+    "risk": 87,
+    "status": "MALICIOUS"
+  },
+  {
+    "timestamp": "2026-05-05 18:05:00",
+    "url": "http://free-gift-card-claim.xyz/win-now",
+    "risk": 56,
+    "status": "SUSPICIOUS"
+  },
+  {
+    "timestamp": "2026-05-05 18:08:00",
+    "url": "https://www.github.com",
+    "risk": 0,
+    "status": "SAFE"
+  },
+  {
+    "timestamp": "2026-05-05 18:11:00",
+    "url": "http://192.168.1.100/admin/login.php",
+    "risk": 91,
+    "status": "MALICIOUS"
+  },
+  {
+    "timestamp": "2026-05-05 18:14:00",
+    "url": "https://paypal.com/signin",
+    "risk": 5,
+    "status": "SAFE"
+  },
+  {
+    "timestamp": "2026-05-05 18:17:00",
+    "url": "http://secure-paypa1-login.ml/confirm-identity",
+    "risk": 96,
+    "status": "MALICIOUS"
+  },
+  {
+    "timestamp": "2026-05-05 18:20:00",
+    "url": "https://microsoft.com/en-us/security",
+    "risk": 3,
+    "status": "SAFE"
+  },
+  {
+    "timestamp": "2026-05-05 18:23:00",
+    "url": "http://micros0ft-account-verify.pw/update-password",
+    "risk": 98,
+    "status": "MALICIOUS"
+  },
+  {
+    "timestamp": "2026-05-05 18:26:00",
+    "url": "https://linkedin.com/in/praharshkumar23",
+    "risk": 0,
+    "status": "SAFE"
+  },
+  {
+    "timestamp": "2026-05-05 18:29:00",
+    "url": "http://trusted.bank@evil-phish.ml/steal-creds",
+    "risk": 97,
+    "status": "MALICIOUS"
+  },
+  {
+    "timestamp": "2026-05-05 18:32:00",
+    "url": "https://dropbox.com/s/abc123/document.pdf",
+    "risk": 2,
+    "status": "SAFE"
+  },
+  {
+    "timestamp": "2026-05-05 18:35:00",
+    "url": "http://dr0pbox-shared-doc.tk/view-file%2Flogin",
+    "risk": 93,
+    "status": "MALICIOUS"
+  },
+  {
+    "timestamp": "2026-05-05 18:38:00",
+    "url": "https://accounts.google.com/o/oauth2/auth",
+    "risk": 3,
+    "status": "SAFE"
+  },
+  {
+    "timestamp": "2026-05-05 18:41:00",
+    "url": "http://support-apple-id-locked.gq/recover-now?user=victim@gmail.com",
+    "risk": 99,
+    "status": "MALICIOUS"
+  }
+]
