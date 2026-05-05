@@ -1,0 +1,9 @@
+.env
+*.pyc
+__pycache__/
+venv/
+.venv/
+scan_history.json
+scan_report_*.json
+*.log
+.DS_Store
